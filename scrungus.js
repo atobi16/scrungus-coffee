@@ -1,6 +1,4 @@
-const fetch=require('node-fetch')
 const respond=require('./responder')
-const http = require('http')
 let json = require('./config.json')
 const Discord = require('discord.js');
 

@@ -1,7 +1,6 @@
 const respond=require('./responder')
-let json = require('./config.json')
 const Discord = require('discord.js');
-
+let json = require('./config.json')
 // Create an instance of a Discord client
 const client = new Discord.Client();
 

@@ -44,6 +44,5 @@ const greet=(line,data)=>{
       let response=r(line,ctext)
       if (response)return response
     }
-    return ''
   }
   

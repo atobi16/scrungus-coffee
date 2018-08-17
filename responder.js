@@ -68,7 +68,7 @@ const eightball=(line,data)=>{
   }
   return ''
 }
-
+/*
 const lenny=(line,ctext)=>{
   if(line==='lenny'){
     console.log('retrieving lenny')
@@ -81,7 +81,8 @@ const lenny=(line,ctext)=>{
 
   return ''
 }
-const responders=[greet,rollXdY,eightball,lenny]
+*/
+const responders=[greet,rollXdY,eightball/*,lenny*/]
 module.exports=(line,ctext)=>{
   for (let r of responders){
     let response=r(line,ctext)
